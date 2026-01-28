@@ -171,6 +171,50 @@ section {
   line-height: 1.8;
 }
 
+.skills-logos {
+  width: 250px;
+  padding-left: 3rem;
+}
+
+.skills-logos h3 {
+  color: #4e342e;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tech-logo {
+  width: 50px;
+  height: 50px;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(248, 104, 142, 0.733);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-logo:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(248, 104, 142, 0.733);
+}
+
+.tech-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
 /* CONTACT */
 .contact {
   background: linear-gradient(135deg, #f5aec8 50%, #ffffff 100%);
