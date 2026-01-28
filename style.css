@@ -118,8 +118,9 @@ section {
 
 .about h2 {
   font-size: 2.5rem;
+  font-weight: 800;
   text-align: left;
-  padding-left: 150px;
+  padding-left: 140px;
   margin-bottom: 1rem;
   color: #61342c;
   text-shadow: 0 0 8px #f39fbb;
@@ -140,7 +141,7 @@ section {
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border: 5px solid #f9ccdb;
   box-shadow: 0 10px 30px #f9ccdb;
   transition: transform 0.3s ease;
@@ -154,6 +155,7 @@ section {
 
 .about-text {
   flex: 1;
+  align-self: flex-start;
 }
 
 .about-text p {
@@ -352,12 +354,25 @@ footer {
 
   .about-text p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 10px;
   }
 
   .about-content .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .skills-logos {
+    padding-left: 0;
+  }
+
+  .skills-logos h3 {
+    font-size: 1rem;
+  }
+
+  .tech-logo {
+    width: 40px;
+    height: 40px;
   }
 
   .contact h2 {
