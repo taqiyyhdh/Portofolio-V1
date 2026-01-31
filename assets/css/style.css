@@ -118,7 +118,7 @@ section {
       rgba(250, 205, 225, 0.968),
       rgba(255, 255, 255, 0.7)
     ),
-    url("bg-about.jpg");
+    url("../img/bg-about.jpg");
   height: 100vh;
 }
 
@@ -360,7 +360,7 @@ footer {
   .about {
     background:
       linear-gradient(rgba(250, 205, 225, 0.968), rgba(255, 255, 255, 0.7)),
-      url("bg-about.jpg");
+      url("../img/bg-about.jpg");
   }
   .about h2 {
     font-size: 2rem;
